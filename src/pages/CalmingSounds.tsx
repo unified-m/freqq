@@ -31,8 +31,7 @@ const CalmingSounds = () => {
       description: 'Peaceful morning bird songs to reduce stress and anxiety',
       benefits: ['Reduces stress', 'Improves mood', 'Enhances focus', 'Natural relaxation'],
       color: 'from-green-500 to-blue-500',
-      //audioUrl: 'https://freesound.org/data/previews/316/316847_5123451-lq.mp3',
-      audioUrl: 'https://drive.google.com/file/d/1Vw546eS3Rp2Xm5iZ3lIoWerocbsmuqd2/view?usp=sharing',
+      audioUrl: 'https://cdn.pixabay.com/audio/2022/03/10/audio_4a369cbfc8.mp3',
       duration: '10:00',
     },
     {
@@ -41,8 +40,7 @@ const CalmingSounds = () => {
       description: 'Gentle wind sounds for meditation and deep relaxation',
       benefits: ['Deep relaxation', 'Meditation aid', 'Stress relief', 'Mental clarity'],
       color: 'from-gray-400 to-blue-400',
-      //audioUrl: 'https://freesound.org/data/previews/316/316847_5123451-lq.mp3',
-      audioUrl: 'https://drive.google.com/file/d/1C9ckZIFbpeNefble28VAi0bvtpx9rcAx/view?usp=sharing',
+      audioUrl: 'https://cdn.pixabay.com/audio/2022/03/15/audio_4d1d6b9c1c.mp3',
       duration: '15:00',
     },
     {
@@ -51,8 +49,7 @@ const CalmingSounds = () => {
       description: 'Rhythmic ocean waves for sleep and tranquility',
       benefits: ['Better sleep', 'Anxiety reduction', 'Blood pressure regulation', 'Peaceful mind'],
       color: 'from-blue-500 to-cyan-500',
-      //audioUrl: 'https://freesound.org/data/previews/316/316847_5123451-lq.mp3',
-      audioUrl: 'https://drive.google.com/file/d/18OVjIb6Z2u2YToQf_2nDToqOOLtvRjJ8/view?usp=drive_link',
+      audioUrl: 'https://cdn.pixabay.com/audio/2022/03/12/audio_c8b3c2c4d6.mp3',
       duration: '20:00',
     },
     {
@@ -61,8 +58,7 @@ const CalmingSounds = () => {
       description: 'Sacred Om vibrations for spiritual healing and meditation',
       benefits: ['Spiritual connection', 'Chakra alignment', 'Deep meditation', 'Inner peace'],
       color: 'from-purple-500 to-pink-500',
-      //audioUrl: 'https://freesound.org/data/previews/316/316847_5123451-lq.mp3',
-      audioUrl: 'https://drive.google.com/file/d/1GG2RUkEjURV5fOImXf_jk4IStWWt6hZD/view?usp=sharing',
+      audioUrl: 'https://cdn.pixabay.com/audio/2023/10/24/audio_b456d36f49.mp3',
       duration: '30:00',
     },
     {
@@ -71,7 +67,7 @@ const CalmingSounds = () => {
       description: 'Powerful ocean waves for deep relaxation and focus',
       benefits: ['Enhanced focus', 'Stress reduction', 'Natural white noise', 'Improved concentration'],
       color: 'from-blue-600 to-teal-600',
-      audioUrl: 'https://freesound.org/data/previews/316/316847_5123451-lq.mp3',
+      audioUrl: 'https://cdn.pixabay.com/audio/2022/05/27/audio_1808fbf07a.mp3',
       duration: '25:00',
     },
     {
@@ -80,8 +76,7 @@ const CalmingSounds = () => {
       description: 'Gentle rain sounds for sleep and relaxation',
       benefits: ['Better sleep quality', 'Anxiety relief', 'Mood improvement', 'Mental calmness'],
       color: 'from-gray-500 to-blue-500',
-      //audioUrl: 'https://freesound.org/data/previews/316/316847_5123451-lq.mp3',
-      audioUrl: 'https://drive.google.com/file/d/1dDH7tRpxOLqHndK1UTE0qk_hlHVImf6I/view?usp=sharing',
+      audioUrl: 'https://cdn.pixabay.com/audio/2022/03/10/audio_d0c0dd010d.mp3',
       duration: '45:00',
     },
     {
@@ -90,8 +85,7 @@ const CalmingSounds = () => {
       description: 'Peaceful stream sounds for meditation and stress relief',
       benefits: ['Stress relief', 'Meditation enhancement', 'Natural healing', 'Mental clarity'],
       color: 'from-blue-400 to-green-400',
-      //audioUrl: 'https://freesound.org/data/previews/316/316847_5123451-lq.mp3',
-      audioUrl: 'https://drive.google.com/file/d/1C9ckZIFbpeNefble28VAi0bvtpx9rcAx/view?usp=sharing',
+      audioUrl: 'https://cdn.pixabay.com/audio/2022/03/12/audio_01b56b4bcd.mp3',
       duration: '35:00',
     },
     {
@@ -100,7 +94,7 @@ const CalmingSounds = () => {
       description: 'Flowing river sounds in a peaceful forest setting',
       benefits: ['Deep relaxation', 'Nature connection', 'Stress reduction', 'Peaceful sleep'],
       color: 'from-green-600 to-blue-600',
-      audioUrl: 'https://freesound.org/data/previews/316/316847_5123451-lq.mp3',
+      audioUrl: 'https://cdn.pixabay.com/audio/2023/09/21/audio_4be4813c47.mp3',
       duration: '40:00',
     },
     {
@@ -109,7 +103,7 @@ const CalmingSounds = () => {
       description: 'Powerful waterfall sounds for energy and focus',
       benefits: ['Increased energy', 'Enhanced focus', 'Natural white noise', 'Mood elevation'],
       color: 'from-cyan-500 to-blue-500',
-      audioUrl: 'https://freesound.org/data/previews/316/316847_5123451-lq.mp3',
+      audioUrl: 'https://cdn.pixabay.com/audio/2022/03/12/audio_af31a65e45.mp3',
       duration: '30:00',
     },
     {
@@ -117,9 +111,8 @@ const CalmingSounds = () => {
       name: 'Night Ambience',
       description: 'Peaceful night sounds with crickets and gentle breeze',
       benefits: ['Better sleep', 'Relaxation', 'Anxiety reduction', 'Peaceful dreams'],
-      color: 'from-indigo-600 to-purple-600',
-      //audioUrl: 'https://freesound.org/data/previews/316/316847_5123451-lq.mp3',
-      audioUrl: 'https://drive.google.com/file/d/1S2GcB0UV-94Z38h34yaSB6rZKTwqbEkQ/view?usp=sharing',
+      color: 'from-blue-600 to-teal-600',
+      audioUrl: 'https://cdn.pixabay.com/audio/2022/03/12/audio_7135a7c38f.mp3',
       duration: '60:00',
     },
   ];
