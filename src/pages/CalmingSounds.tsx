@@ -76,7 +76,7 @@ const CalmingSounds = () => {
       description: 'Gentle rain sounds for sleep and relaxation',
       benefits: ['Better sleep quality', 'Anxiety relief', 'Mood improvement', 'Mental calmness'],
       color: 'from-gray-500 to-blue-500',
-      audioUrl: 'https://cdn.pixabay.com/audio/2022/03/10/audio_d0c0dd010d.mp3',
+      audioUrl: 'https://myckworfnrmkkhzpagto.supabase.co/storage/v1/object/public/audios/Rain%20Sound.mp4',
       duration: '45:00',
     },
     {
