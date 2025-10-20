@@ -322,4 +322,5 @@ For questions, issues, or feature requests:
 **Built with ❤️ for holistic wellness and healing**
 
 *Remember: This application complements but does not replace professional medical care. Always consult healthcare providers for medical concerns.*#   f r e q  
+ #   f r e q q  
  
