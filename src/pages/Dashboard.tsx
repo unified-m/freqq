@@ -1,13 +1,22 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { MessageCircle, Music, Stethoscope, History, TrendingUp, Clock, Heart, Brain } from 'lucide-react';
+import { MessageCircle, Music, Stethoscope, History, TrendingUp, Clock, Heart, Brain, Activity, BarChart3 } from 'lucide-react';
 import { useAuth } from '../contexts/AuthContext';
 
 const Dashboard = () => {
   const { user } = useAuth();
 
   const quickActions = [
+    {
+      icon: Activity,
+      title: 'Symptom Checker',
+      description: 'AI-powered health assessment',
+      path: '/symptom-checker',
+      color: 'from-teal-600 to-teal-700',
+      iconBg: 'bg-teal-100 dark:bg-teal-900/20',
+      iconColor: 'text-teal-600 dark:text-teal-400',
+    },
     {
       icon: MessageCircle,
       title: 'AI Health Chat',
@@ -25,6 +34,15 @@ const Dashboard = () => {
       color: 'from-purple-600 to-purple-700',
       iconBg: 'bg-purple-100 dark:bg-purple-900/20',
       iconColor: 'text-purple-600 dark:text-purple-400',
+    },
+    {
+      icon: BarChart3,
+      title: 'ML Evaluation',
+      description: 'View model performance metrics',
+      path: '/ml-evaluation',
+      color: 'from-cyan-600 to-cyan-700',
+      iconBg: 'bg-cyan-100 dark:bg-cyan-900/20',
+      iconColor: 'text-cyan-600 dark:text-cyan-400',
     },
     {
       icon: Stethoscope,

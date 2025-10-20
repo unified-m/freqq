@@ -14,6 +14,8 @@ import FrequencyGenerator from './pages/FrequencyGenerator';
 import DoctorFinder from './pages/DoctorFinder';
 import History from './pages/History';
 import CalmingSounds from './pages/CalmingSounds';
+import MLEvaluation from './pages/MLEvaluation';
+import SymptomChecker from './pages/SymptomChecker';
 import ProtectedRoute from './components/ProtectedRoute';
 
 const queryClient = new QueryClient({
@@ -66,6 +68,16 @@ function App() {
                   <Route path="/calming/:soundId" element={
                     <ProtectedRoute>
                       <CalmingSounds />
+                    </ProtectedRoute>
+                  } />
+                  <Route path="/ml-evaluation" element={
+                    <ProtectedRoute>
+                      <MLEvaluation />
+                    </ProtectedRoute>
+                  } />
+                  <Route path="/symptom-checker" element={
+                    <ProtectedRoute>
+                      <SymptomChecker />
                     </ProtectedRoute>
                   } />
                 </Routes>
